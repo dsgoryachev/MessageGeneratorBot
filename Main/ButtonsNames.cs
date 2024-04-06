@@ -1,5 +1,5 @@
 ﻿
-namespace MessageGeneratorBot.Constants
+namespace MessageGeneratorBot.Main
 {
     class ButtonsNames
     {

@@ -3,14 +3,10 @@ using System.Threading;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Types;
-using Telegram.Bot.Extensions;
 using System.Threading.Tasks;
 using Telegram.Bot.Polling;
-using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types.Enums;
-using MessageGeneratorBot.Messages;
-using MessageGeneratorBot.Constants;
-using System.IO;
+using MessageGeneratorBot.Main;
 
 namespace MessageGeneratorBot
 {

@@ -1,4 +1,4 @@
-﻿using MessageGeneratorBot.Constants;
+﻿using MessageGeneratorBot.Main;
 using System.IO;
 
 namespace MessageGeneratorBot

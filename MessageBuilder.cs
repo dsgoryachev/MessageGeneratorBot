@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using Telegram.Bot.Types.ReplyMarkups;
 using MessageGeneratorBot.Messages;
-using MessageGeneratorBot.Constants;
+using MessageGeneratorBot.Main;
 
 namespace MessageGeneratorBot
 {

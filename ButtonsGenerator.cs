@@ -1,4 +1,4 @@
-﻿using MessageGeneratorBot.Constants;
+﻿using MessageGeneratorBot.Main;
 using Telegram.Bot.Types.ReplyMarkups;
 
 namespace MessageGeneratorBot
