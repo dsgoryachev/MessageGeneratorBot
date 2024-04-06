@@ -7,13 +7,8 @@ namespace MessageGeneratorBot
     {
         internal InlineKeyboardMarkup ReturnStartButtons()
         {
-            // FULL AMOUNT OF BUTTONS
             InlineKeyboardButton[] btn_main_row1 = new InlineKeyboardButton[] { ButtonsNames.BUY_NEW, ButtonsNames.SELL_ALL };
             InlineKeyboardButton[] btn_main_row2 = new InlineKeyboardButton[] { ButtonsNames.BUY_PART, ButtonsNames.SELL_PART };
-
-            // SHORT AMOUNT OF BUTTONS
-            //InlineKeyboardButton[] btn_main_row1 = new InlineKeyboardButton[] { ButtonsNames.BUY_NEW, ButtonsNames.SELL_ALL };
-            //InlineKeyboardButton[] btn_main_row2 = new InlineKeyboardButton[] { ButtonsNames.BUY_PART };
             InlineKeyboardButton[][] btn_main_all = new InlineKeyboardButton[][] { btn_main_row1, btn_main_row2 };
 
             return new InlineKeyboardMarkup(btn_main_all);

@@ -1,5 +1,4 @@
 ﻿using Telegram.Bot.Types.ReplyMarkups;
-using MessageGeneratorBot.Main;
 
 namespace MessageGeneratorBot.Messages
 {
