@@ -7,10 +7,16 @@ User simply selects message type and submits input information. Bot generates me
 1. Bot offers 4 types of messages:
 
     ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/81d5a453-731b-4eab-a9d4-0a597e4c7c86)
-
+2. Select one of them by pressing the button
+   
     ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/9ae396fa-b2f5-42bb-9dcc-89f478bbccd2)
+3. Send essential information to the bot
 
-    ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/fd0529c5-eb02-42e3-a111-a7086671c020)
+    ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/103ec699-9edb-40fe-a8b8-bd779664a116)
+4. Bot generates message, which can be posted to the channel or group
+
+    ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/d3e7e11b-0808-428a-8519-620582f74aff)
+
 
 ## Packages
 * [.NET 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
