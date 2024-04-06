@@ -36,6 +36,6 @@ where:
 
 `TOKEN` - token of your bot from [BotFather](https://t.me/BotFather) , as example `1873555505:AAH_3Hnf6666669Z_1pu47444444q9Ti64w`
 
-`@GROUP_NAME` - 
+`@GROUP_NAME` - name of the telegram group for storing logs , as example `@logs` 
 
-`PATH_TO_FOLDER_ON_YOUR_COMPUTER` -
+`PATH_TO_FOLDER_ON_YOUR_COMPUTER` - path to the local folder for database (.txt format) and cash files, as example `C:\MyBot\`
