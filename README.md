@@ -16,6 +16,9 @@ User simply selects message type and submits input information. Bot generates me
 4. Bot generates message, which can be posted to the channel or group
 
     ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/d3e7e11b-0808-428a-8519-620582f74aff)
+5. Bot sends your message to the channel or group
+
+    ![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/b4ead2e5-4ff9-441b-927f-3f78fa3081e1)
 
 
 ## Packages
