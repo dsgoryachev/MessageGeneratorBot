@@ -5,6 +5,8 @@ namespace MessageGeneratorBot.Main
     {
         internal const string telegramBotAPIToken = "1873068905:AAH_3Hnf7pocYf9Z_1pu470mz488q9Ti64w";
 
+        internal const string TELEGRAM_LOGS_GROUP = "@mylogslogslogs";
+
         internal const string PATH_TO_MAIN_FOLDER = @"C:\Users\d_goryachev\Desktop\1\_Visual Studio\UpsideBot\";
         internal const string PATH_TO_FOLDER_USERS_INFO = PATH_TO_MAIN_FOLDER + @"UsersInfo\";
         internal const string PATH_TO_CASH_FILE = PATH_TO_MAIN_FOLDER + "Cash.txt";
