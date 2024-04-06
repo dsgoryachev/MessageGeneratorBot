@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using Telegram.Bot.Types.ReplyMarkups;
-using UpsideBot.Messages;
-using UpsideBot.Constants;
+using MessageGeneratorBot.Messages;
+using MessageGeneratorBot.Constants;
 
-namespace UpsideBot
+namespace MessageGeneratorBot
 {
     class MessageBuilder
     {

@@ -1,7 +1,7 @@
-﻿using UpsideBot.Constants;
+﻿using MessageGeneratorBot.Constants;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace UpsideBot
+namespace MessageGeneratorBot
 {
     class ButtonsGenerator
     {

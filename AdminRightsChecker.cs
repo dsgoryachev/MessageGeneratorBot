@@ -1,7 +1,7 @@
-﻿using UpsideBot.Constants;
+﻿using MessageGeneratorBot.Constants;
 using System.IO;
 
-namespace UpsideBot
+namespace MessageGeneratorBot
 {
     class AdminRightsChecker
     {

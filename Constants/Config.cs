@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UpsideBot.Constants
+﻿
+namespace MessageGeneratorBot.Constants
 {
     class Config
     {

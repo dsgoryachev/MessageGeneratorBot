@@ -1,5 +1,5 @@
 ﻿
-namespace UpsideBot.Constants
+namespace MessageGeneratorBot.Constants
 {
     class ButtonsNames
     {

@@ -1,7 +1,7 @@
 ﻿using Telegram.Bot.Types.ReplyMarkups;
-using UpsideBot.Constants;
+using MessageGeneratorBot.Constants;
 
-namespace UpsideBot.Messages
+namespace MessageGeneratorBot.Messages
 {
     class MessageStart
     {
