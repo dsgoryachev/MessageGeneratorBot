@@ -21,3 +21,18 @@ User simply selects message type and submits input information. Bot generates me
 ## Packages
 * [.NET 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
 * [Telegram.Bot 18.0.0](https://www.nuget.org/packages/Telegram.Bot/18.0.0?_src=template)
+
+## Installation
+Download repository and add your information in "Config" class 
+![image](https://github.com/dsgoryachev/MessageGeneratorBot/assets/109218841/52482b5e-7044-4d53-9f31-b35253ebc1aa)
+        
+        internal const string TELEGRAM_BOT_API_TOKEN = "TOKEN";
+        internal const string TELEGRAM_LOGS_GROUP = "@GROUP_NAME";
+        internal const string PATH_TO_MAIN_FOLDER = @"PATH_TO_FOLDER_ON_YOUR_COMPUTER";
+where:
+
+`TOKEN` - token of your bot from [BotFather](https://t.me/BotFather) , as example `1873555505:AAH_3Hnf6666669Z_1pu47444444q9Ti64w`
+
+`@GROUP_NAME` - 
+
+`PATH_TO_FOLDER_ON_YOUR_COMPUTER` -
