@@ -1,4 +1,4 @@
-## Function of the telegram bot
+## Functions of the telegram bot
 Automate the process of posting trade messages to the group or channel.
 
 User simply selects message type and submits input information. Bot generates message that can be posted to the group or channel directly from the bot.
