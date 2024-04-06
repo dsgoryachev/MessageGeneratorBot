@@ -14,7 +14,7 @@ namespace MessageGeneratorBot
     {
         static void Main(string[] args)
         {
-            ITelegramBotClient bot = new TelegramBotClient(Config.telegramBotAPIToken);
+            ITelegramBotClient bot = new TelegramBotClient(Config.TELEGRAM_BOT_API_TOKEN);
             var cts = new CancellationTokenSource();
             var cancellationToken = cts.Token;
             var receiverOptions = new ReceiverOptions
@@ -36,7 +36,7 @@ namespace MessageGeneratorBot
                     await botClient.SendTextMessageAsync(message.Chat, textMessage.outputText, replyMarkup: textMessage.buttons, parseMode: ParseMode.Html);
 
                     // Logs to the telegram group
-                    await botClient.ForwardMessageAsync("@mylogslogslogs", message.Chat.Id, message.MessageId);
+                    await botClient.ForwardMessageAsync(Config.TELEGRAM_LOGS_GROUP, message.Chat.Id, message.MessageId);
                 }
             }
             else if (update.CallbackQuery is CallbackQuery callback)
@@ -61,7 +61,7 @@ namespace MessageGeneratorBot
         {
             if (exception is ApiRequestException apiRequestException)
             {
-                await botClient.SendTextMessageAsync("@mylogslogslogs", apiRequestException.ToString());
+                await botClient.SendTextMessageAsync(Config.TELEGRAM_LOGS_GROUP, apiRequestException.ToString());
             }
         }
     }
